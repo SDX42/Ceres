@@ -1,0 +1,18 @@
+{
+  "name": "ceres",
+  "productName": "OpenCeres",
+  "version": "0.0.1",
+  "description": "A cross-platform, open source analysis tool for the ambitious cyclist.",
+  "main": "./main.js",
+  "author": {
+    "name": "Simon Dibbern",
+    "email": "simon.dibbern92@gmail.com",
+    "url": "https://github.com/SDX42"
+  },
+  "scripts": {
+    "postinstall": "npm rebuild --runtime=electron --target=1.6.6 --disturl=https://atom.io/download/atom-shell --build-from-source"
+  },
+  "license": "MIT",
+  "dependencies": {
+  }
+}
