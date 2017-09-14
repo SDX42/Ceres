@@ -1,4 +1,11 @@
 :local {
+
+  @keyframes FadeInOut {
+    0%   { opacity: .8; }
+    50%  { opacity: 1; }
+    100% { opacity: .8; }    
+  }
+
   .container {
     text-align: center;
     position: absolute;
@@ -13,5 +20,9 @@
 
   .container a {
     font-size: 1.4rem;
+  }
+
+  .container img {
+    animation: FadeInOut 5s infinite;
   }
 }
